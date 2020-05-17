@@ -2,7 +2,7 @@ FROM mono
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y vim zip && \
+    apt-get install -y vim zip wget && \
     apt-get clean
 
 ENV VANILLA_VERSION=1402
