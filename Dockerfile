@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y vim zip && \
     apt-get clean
 
-ENV VANILLA_VERSION=1401
+ENV VANILLA_VERSION=1402
 
 RUN mkdir /tmp/terraria && \
     cd /tmp/terraria
