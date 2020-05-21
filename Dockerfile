@@ -5,13 +5,13 @@ RUN apt-get update && \
     apt-get install -y vim zip wget && \
     apt-get clean
 
-# ENV VANILLA_VERSION=1402
+# ENV VANILLA_VERSION=1403
 
 RUN mkdir /tmp/terraria && \
     cd /tmp/terraria
 
 # RUN wget https://terraria.org/server/terraria-server-${VANILLA_VERSION}.zip -o terraria-server.zip
-RUN wget -O terraria-server.zip https://terraria.org/system/dedicated_servers/archives/000/000/036/original/terraria-server-1402.zip?1589675482
+RUN wget -O terraria-server.zip https://terraria.org/system/dedicated_servers/archives/000/000/037/original/terraria-server-1403.zip?1590018631
 
 RUN unzip -q terraria-server.zip && \
     mv */Linux /vanilla && \
