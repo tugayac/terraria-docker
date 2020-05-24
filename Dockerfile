@@ -11,7 +11,7 @@ RUN mkdir /tmp/terraria && \
     cd /tmp/terraria
 
 # RUN wget https://terraria.org/server/terraria-server-${VANILLA_VERSION}.zip -o terraria-server.zip
-RUN wget -O terraria-server.zip https://terraria.org/system/dedicated_servers/archives/000/000/037/original/terraria-server-1403.zip?1590018631
+RUN wget -O terraria-server.zip https://terraria.org/system/dedicated_servers/archives/000/000/038/original/terraria-server-1404.zip?1590253816
 
 RUN unzip -q terraria-server.zip && \
     mv */Linux /vanilla && \
